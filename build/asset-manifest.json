@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fb946889.chunk.css",
+    "main.js": "/static/js/main.2663b009.chunk.js",
+    "main.js.map": "/static/js/main.2663b009.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.400f043a.chunk.css": "/static/css/2.400f043a.chunk.css",
+    "static/js/2.1bb31852.chunk.js": "/static/js/2.1bb31852.chunk.js",
+    "static/js/2.1bb31852.chunk.js.map": "/static/js/2.1bb31852.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.710206d43b6caa3798f3c227730b79b0.js": "/precache-manifest.710206d43b6caa3798f3c227730b79b0.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.400f043a.chunk.css.map": "/static/css/2.400f043a.chunk.css.map",
+    "static/css/main.fb946889.chunk.css.map": "/static/css/main.fb946889.chunk.css.map",
+    "static/media/bakgrunn111.jpg": "/static/media/bakgrunn111.3980b970.jpg",
+    "static/media/bakgrunn2222.jpg": "/static/media/bakgrunn2222.1f7ca3e4.jpg",
+    "static/media/bakgrunn333.jpg": "/static/media/bakgrunn333.c9d17fa9.jpg",
+    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff"
+  }
+}
