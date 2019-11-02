@@ -1,0 +1,91 @@
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 40%;
+  right: 35%;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  border-radius: 25px;
+  border-color: rgb(237,28,36);
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background-color: rgb(53,53,53);
+  -webkit-box-shadow: 0px 2px 50px 9px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 50px 9px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 50px 9px rgba(0,0,0,0.75);
+}
+
+.form-container {
+  padding-left: 140px;
+  padding-right: 150px;
+  background-color: white;
+  z-index: 19;
+  border-top: 2px solid rgb(237,28,36);
+  border-bottom: 2px solid rgb(237,28,36);
+}
+
+.form-container input[type=text], .form-container input[type=password] {
+  padding: 205px;
+  border: none;
+  background: #f1f1f1;
+}
+
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.form-container .btn {
+  background-color: green;
+  color: white;
+  padding: 16px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+  margin-bottom:10px;
+  opacity: 0.8;
+  margin-right: 10px;
+}
+
+.form-container .cancel {
+  background-color: red;
+}
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+#knappeContainer { 
+    white-space: nowrap; 
+}
+
+#Knappene { 
+    display: inline-block; 
+    width: 50%;  
+}
+
+#top{
+  padding-top:40px;
+}
+
+#bottom{
+  padding-bottom:40px;
+}
+
+@media only screen and (max-width: 700px) {
+  
+  .form-popup {
+    display: none;
+    position: fixed;
+    bottom: 40%;
+    right: 15%;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    border-radius: 25px;
+    border-color: rgb(237,28,36);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(53,53,53);
+  }
+
+}

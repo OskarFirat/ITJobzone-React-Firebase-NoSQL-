@@ -1,0 +1,47 @@
+#omITJOBZONE{
+    margin-top: 150px !important;
+}
+
+#overskriftOmITJOBZONE{
+    text-align: center !important;
+    color: white;
+}
+
+#tekstOmITJOBZONE{
+    font-family: sans-serif; 
+    text-align: justify;
+}
+
+@media only screen and (max-width: 1670px) {
+    #tekstOmITJOBZONE{
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 1490px) {
+    #tekstOmITJOBZONE{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1010px) {
+    #tekstOmITJOBZONE{
+        font-size: 13px;
+    }
+
+    #heleTekst{
+        margin-right: 20px !important;
+        margin-left: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #tekstOmITJOBZONE{
+        margin-left: 30px; 
+        margin-right: 30px;
+    }
+
+    #omITJOBZONE{
+        margin-top: 50px !important;
+    }
+}

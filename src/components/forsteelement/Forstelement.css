@@ -1,0 +1,50 @@
+#forsteBodyElement1{
+    background-color:rgb(237,28,36);
+    color:white;
+}
+
+#forsteBodyElement1:hover{
+    background-color:rgb(53,53,53);
+}
+
+#forsteBodyElement2{
+   background-color: rgb(214,26,33); 
+    color:white;
+}
+
+#forsteBodyElement2:hover{
+    background-color:rgb(53,53,53);
+}
+
+#forsteBodyElement3{
+    background-color:rgb(237,28,36);
+    color:white;
+}
+
+#forsteBodyElement3:hover{
+    background-color:rgb(53,53,53);
+}
+
+.forsteBodyElementIkonerIMidten{
+    text-align: center;
+    margin-top: 25px; 
+}
+
+.forsteBodyElementMedTekst{
+    text-align: center;
+    margin-top: 17px;
+}
+
+@media only screen and (max-width: 1150px) {
+    .forsteBodyElementMedTekst{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #forsteBodyElement2{
+        background-color:rgb(53,53,53);
+    }
+}
+
+

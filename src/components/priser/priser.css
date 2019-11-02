@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .columns {
+    float: left;
+    width: 100%;
+    padding: 8px;
+  }
+
+  .price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+
+  .price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+  }
+
+  .price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+  }
+
+  .price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .price .grey {
+    background-color: #eee;
+    font-size: 20px;
+  }
+
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  #prisOverskrift{
+      margin-top:50px;
+      text-align: center !important;
+      color:white;
+  }
+  
+  #prisSeksjonen{
+      margin-top: 150px;
+      background-color: rgb(53,53,53);
+  }
+
+  #priseboksene{
+      margin-top: 10px;
+      margin-bottom: 30px;
+  }
+  
+  #priseboksrad1{
+      background-color:rgb(237,28,36); 
+      width: 100%; 
+      border: solid 1px black;
+  }
+  
+  #priseboksrad2{
+      border-top: solid 1px black; 
+      border-left: solid 1px black; 
+      border-right:solid 1px black; 
+  }
+  
+  #priseboksrad3{
+      background-color:white; 
+      border: solid 1px black;
+      white-space:nowrap;
+  }
+  
+  #priseboksrad4{
+      background-color:white; 
+      border-bottom: solid 1px black; 
+      border-left: solid 1px black; 
+      border-right:solid 1px black; 
+  }
+  
+  #priseboksrad5{
+      border-bottom: solid 1px black; 
+      border-left: solid 1px black; 
+      border-right:solid 1px black; 
+  }
+  
+  #signUpKnapp{
+      white-space:nowrap;
+      background-color: limegreen;
+      border: 1px solid black;
+      padding-left: 25px;
+      padding-right: 25px;
+      border-radius: 5px;
+  }
+  
+  #signUpKnapp:hover{
+      background-color: rgb(40, 164, 40);
+      color: white;
+      font-weight: bold;
+      border: 1px solid black;
+  }
+
+@media only screen and (max-width: 1490px) {
+      #priseboksrad3{
+          font-size: 13px !important;   
+      }
+      
+      #priseboksrad4{
+          font-size: 13px !important;   
+      }
+}
+
+@media only screen and (max-width: 1250px) {
+      #priseboksrad3{
+          font-size: 11px !important;   
+      }
+      
+      #priseboksrad4{
+          font-size: 11px !important;   
+      }
+}  
+
+@media only screen and (max-width: 1150px) {
+      #priseboksrad3{
+          font-size: 9px !important;   
+      }
+      
+      #priseboksrad4{
+          font-size: 9px !important;   
+      }
+}
+
+@media only screen and (max-width: 1010px) {
+      #priseboksrad2{
+          font-size: 15px !important;   
+      }
+      
+      #priseboksrad3{
+          font-size: 8px !important;   
+      }
+      
+      #priseboksrad4{
+          font-size: 8px !important;  
+          white-space:nowrap;
+      } 
+}  
+
+@media only screen and (max-width: 700px) {
+      #priseboksene{
+          margin-left: 50px !important;
+      }
+      
+      #priseboksrad3{
+          font-size: 13px !important;   
+      }
+      
+      #priseboksrad4{
+          font-size: 13px !important;  
+          white-space:nowrap;
+      }
+}
+
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+      #priseboksene{
+          margin-left: 50px !important;
+      }
+      
+      #priseboksrad3{
+          font-size: 13px !important;   
+      }
+      
+      #priseboksrad4{
+          font-size: 13px !important;  
+          white-space:nowrap;
+      }
+}

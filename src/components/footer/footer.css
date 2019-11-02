@@ -1,0 +1,140 @@
+.rammeRundtHeleFooter{
+    margin-top:9%;
+    background-color:rgb(53,53,53);
+}
+
+.rammeRundtFooter{
+    margin-left: 25%;
+}
+
+.footerOverskrift{
+   padding-top: 5%;
+    margin-left: 25%;
+    font-size: 40px;
+}
+
+.footerIlinje{
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 190px;
+    color:white;
+}
+
+.footerUndertekst{
+    padding-top: 1%;
+    margin-left: 27%;
+    font-size: 16px;
+    color:white;
+    padding-bottom: 5%;
+}
+
+@media only screen and (max-width: 1670px) {
+    .footerOverskrift{
+        margin-left: 32% !important;
+    }
+}
+
+@media only screen and (max-width: 1490px) {
+    .rammeRundtFooter{
+        margin-left: 20% !important; 
+    }
+
+    .footerOverskrift{
+        margin-left: 32% !important; 
+        font-size: 35px!important; 
+    }
+
+    .footerIlinje{
+        margin-left: 80px !important; 
+    }
+
+    .footerUndertekst{
+        margin-left: 35% !important; 
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .rammeRundtFooter{
+        margin-left: 20% !important; 
+    }
+
+    .footerOverskrift{
+        margin-left: 33% !important;  
+    }
+
+    .footerIlinje{
+        margin-left: 50px !important; 
+    }
+
+    .footerUndertekst{
+        margin-left: 35% !important; 
+    }  
+}
+
+@media only screen and (max-width: 1010px) {
+    .rammeRundtFooter{
+        margin-left: 10% !important; 
+    }
+
+    .footerOverskrift{
+        margin-left: 33% !important;  
+    }
+
+    .footerUndertekst{
+        margin-left: 38% !important; 
+    }  
+} 
+
+@media only screen and (max-width: 700px) {
+    .footerOverskrift{
+        margin-left: 38% !important;  
+    }
+
+    .footerIlinje{
+        margin-left: 30px !important;
+        font-size:18px !important;
+    }
+
+    .footerUndertekst{
+        margin-left: 42% !important; 
+    } 
+} 
+
+@media only screen and (max-width: 550px) {
+    .footerOverskrift{
+        margin-left: 23% !important;  
+    }
+
+    .footerIlinje{
+        width: 300px;
+        margin-left: 100px !important;
+        font-size:18px !important;
+        margin-bottom: -25px !important;
+    }
+
+    .footerUndertekst{
+        margin-top: 30px;
+        margin-left: 24% !important; 
+    } 
+}
+
+@media only screen and (max-width: 450px) {
+    .footerOverskrift{
+        margin-left: 12% !important;  
+    }
+
+    .footerIlinje{
+        width: 300px;
+        margin-left: 45px !important;
+        font-size:18px !important;
+        margin-bottom: -25px !important;
+    }
+
+    .footerUndertekst{
+        margin-top: 60px;
+        margin-left: 15% !important; 
+    } 
+}
+
+

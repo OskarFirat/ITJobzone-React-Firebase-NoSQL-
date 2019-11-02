@@ -1,0 +1,518 @@
+.carousel-indicators .active{
+    background-color: rgb(237,28,36)!important; 
+    color:rgb(237,28,36)!important;
+}
+
+.carousel-indicators li {
+    height: 20px;
+    width: 20px;
+    border-radius: 50% !important;
+    background-color: rgb(53,53,53) !important;
+}
+
+.carousel-item{
+    height: 500px;
+} 
+
+.carousel-item img{
+    height: 500px;
+}
+
+#venstreSlideForsyver{
+    color:rgb(237,28,36); 
+    background-color:rgb(53,53,53); 
+    padding: 8px; 
+    padding-top: 13px; 
+    padding-bottom: 13px; 
+    border-radius:15%;
+}
+
+#venstreSlideForsyver:hover{
+    color:rgb(53,53,53);  
+    background-color:rgb(237,28,36);
+}
+
+#hoyreSlideForsyver{
+    color:rgb(237,28,36); 
+    background-color:rgb(53,53,53); 
+    padding: 8px; 
+    padding-top: 13px;
+    padding-bottom: 13px; 
+    border-radius:15%;   
+}
+
+#hoyreSlideForsyver:hover{
+    color:rgb(53,53,53);  
+    background-color:rgb(237,28,36);
+}
+
+/* Tekst for slide 1. */
+#overskriftSlide1{
+    position: absolute;
+    top: 55px !important;
+    margin-right: 300px !important;
+    bottom: auto !important;
+    color:rgb(53,53,53); 
+    font-size:30px;
+}
+
+#overskirft2Slide1{
+    color:rgb(237,28,36); 
+    font-size:55px;
+    white-space:nowrap;
+}
+
+#overskirft3Slide1{
+    color:rgb(53,53,53); 
+    font-size:30px;
+}
+
+hr{
+    color:rgb(53,53,53); 
+    border-radius: 25px;  
+    height:2px; border:none; 
+    background-color:rgb(53,53,53); 
+    width:"70%";
+}
+
+#knappForSlide1{
+    margin-right: 10px; 
+    background-color:rgb(237,28,36); 
+    white-space:nowrap;
+}
+
+#knappForSlide1:hover{
+    background-color: rgb(53,53,53) !important;
+    border:rgb(237,28,36) solid 2px !important; 
+}
+
+/* Tekst for slide 2. */
+#overskriftSlide2{
+    position: absolute !important;
+    font-size:50px;
+    top: -400px !important;
+    white-space:nowrap;
+    left: 840px !important;
+}
+
+#overskirft1Slide2{
+    position: absolute !important;
+    color:rgb(53,53,53); 
+    font-size:35px;
+    top: -325px !important;
+    left: 740px !important;
+    white-space:nowrap;
+}
+
+#knappForSlide2{
+    margin-right: 10px; 
+    background-color:rgb(53,53,53); 
+    white-space:nowrap; 
+    position: absolute !important;
+    top: -185px !important;
+    left: 890px !important; 
+    white-space:nowrap; 
+    border:rgb(237,28,36) solid 3px !important;
+}
+
+#knappForSlide2:hover{
+    background-color: rgb(237,28,36) !important; 
+    border:rgb(53,53,53) solid 3px !important;
+}
+
+/* Tekst for slide 3. */
+#overskriftSlide3{
+    position: absolute;
+    top: -355px !important;
+    left: 140px !important;
+    bottom: auto !important;
+    font-size:50px;
+    color:rgb(53,53,53); 
+    white-space:nowrap;
+}
+
+#overskirft1Slide3{
+    position: absolute !important;
+    color:rgb(237,28,36); 
+    font-size:25px;
+    top: -280px !important;
+    left: 190px !important;
+    white-space:nowrap;
+}
+
+#knappForSlide3{
+    margin-right: 10px; 
+    background-color: rgb(53,53,53);
+    white-space:nowrap; 
+    position: absolute !important;
+    top: -85px !important;
+    left: 370px !important; 
+    border:rgb(53,53,53) solid 3px !important;
+}
+
+#knappForSlide3:hover{
+    border:rgb(237,28,36) solid 3px !important;
+}
+
+@media only screen and (max-width: 1670px) {
+#rammeRundtNavbar{
+    margin-left: 13.5% !important; 
+    margin-right: 16%;
+}
+
+#overskriftSlide2{
+    position: absolute!important;
+    top: -400px !important;
+    margin-left: -240px !important;
+}
+
+#overskirft1Slide2{
+    position: absolute!important;
+    top: -325px !important;
+    margin-left: -240px !important;
+}
+
+#knappForSlide2{ 
+    position: absolute !important;
+    top: -185px !important;
+    margin-left: -240px
+}
+}
+
+@media only screen and (max-width: 1490px) {
+    #overskriftSlide3{
+        position: absolute;
+        top: -355px !important;
+        margin-left: -50px !important;
+        bottom: auto !important;
+        font-size:40px !important;
+    }
+
+    #overskirft1Slide3{
+        position: absolute !important;
+        color:rgb(237,28,36); 
+        font-size:20px !important;
+        top: -280px !important;
+        margin-left: -50px !important;
+        white-space:nowrap;
+    }
+    
+    #knappForSlide3{ 
+        position: absolute !important;
+        top: -85px !important;
+        margin-left: -120px; 
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    #overskriftSlide2{
+        position: absolute!important;
+        top: -400px !important;
+        margin-left: -350px !important;
+    }
+
+    #overskirft1Slide2{
+        position: absolute!important;
+        top: -325px !important;
+        margin-left: -350px !important;
+    }
+    
+    #knappForSlide2{ 
+        position: absolute !important;
+        top: -185px !important;
+        margin-left: -350px
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    #overskriftSlide2{
+        position: absolute!important;
+        top: -400px !important;
+        margin-left: -450px !important;
+    }
+
+    #overskirft1Slide2{
+        position: absolute!important;
+        top: -325px !important;
+        margin-left: -450px !important;
+    }
+    
+    #knappForSlide2{ 
+        position: absolute !important;
+        top: -185px !important;
+        margin-left: -450px
+    } 
+    
+    #overskriftSlide3{
+        position: absolute;
+        top: -355px !important;
+        margin-left: -150px !important;
+        bottom: auto !important;
+        font-size:40px !important;
+    }
+
+    #overskirft1Slide3{
+        position: absolute !important;
+        color:rgb(237,28,36); 
+        font-size:20px !important;
+        top: -280px !important;
+        margin-left: -150px !important;
+        white-space:nowrap;
+    }
+    
+    #knappForSlide3{ 
+        position: absolute !important;
+        top: -85px !important;
+        margin-left: -220px; 
+    }
+}
+
+@media only screen and (max-width: 1010px) {
+    #overskirft1Slide1{
+        color:rgb(53,53,53)!important; 
+        font-size:25px !important;
+        white-space:nowrap;
+        margin-left: 40px !important;
+    }
+
+    #overskirft2Slide1{
+        color:rgb(237,28,36) !important;
+        font-size:35px !important;
+        white-space:nowrap;
+    }
+
+    #overskirft3Slide1{
+        color:rgb(53,53,53) !important;
+        font-size:20px !important;
+    }
+
+    #overskriftSlide2{
+        position: absolute!important;
+        top: -400px !important;
+        margin-left: -470px !important;
+        font-size:25px !important;
+    }
+
+    #overskirft1Slide2{
+        position: absolute!important;
+        top: -325px !important;
+        margin-left: -440px !important;
+        font-size:20px !important;
+    }
+    
+    #knappForSlide2{ 
+        position: absolute !important;
+        top: -185px !important;
+        margin-left: -520px;
+        font-size:15px !important;
+    } 
+    
+    #overskriftSlide3{
+        position: absolute;
+        top: -355px !important;
+        margin-left: -150px !important;
+        bottom: auto !important;
+        font-size:30px !important;
+    }
+
+    #overskirft1Slide3{
+        position: absolute !important;
+        color:rgb(237,28,36); 
+        font-size:17px !important;
+        top: -280px !important;
+        margin-left: -190px !important;
+        white-space:nowrap;
+    }
+    
+    #knappForSlide3{ 
+        position: absolute !important;
+        top: -85px !important;
+        margin-left: -300px; 
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #overskirft1Slide1{
+        color:rgb(53,53,53)!important; 
+        font-size:25px !important;
+        white-space:nowrap;
+        margin-left: 30px !important;
+        margin-bottom: 20px !important;
+    }
+
+    #knappForSlide1{ 
+        position: absolute !important;
+        top: 235px !important;
+    } 
+
+    #overskirft2Slide1{
+        color:rgb(237,28,36) !important;
+        font-size:30px !important;
+        white-space:nowrap;
+        margin-bottom: 10px !important;
+    }
+
+    #overskirft3Slide1{
+        color:rgb(53,53,53) !important;
+        font-size:15px !important;
+        white-space:nowrap;
+        margin-bottom: 40px !important;
+    }
+    
+    hr{
+        display: none;
+    }
+    
+    #overskriftSlide2{
+        position: absolute!important;
+        top: -360px !important;
+        margin-left: -660px !important;
+        font-size:28px !important;
+    }
+
+    #overskirft1Slide2{
+        position: absolute!important;
+        top: -305px !important;
+        margin-left: -630px !important;
+        font-size:20px !important;
+    }
+    
+    #knappForSlide2{ 
+        position: absolute !important;
+        top: -235px !important;
+        margin-left: -675px;
+        font-size:15px !important;
+        margin-top: 50px;
+    } 
+    
+    #overskriftSlide3{
+        position: absolute;
+        top: -355px !important;
+        margin-left: -150px !important;
+        bottom: auto !important;
+        font-size:18px !important;
+    }
+
+    #overskirft1Slide3{
+        position: absolute !important;
+        color:rgb(237,28,36); 
+        font-size:13px !important;
+        top: -300px !important;
+        margin-left: -220px !important;
+        white-space:nowrap;
+    }
+    
+    #knappForSlide3{ 
+        position: absolute !important;
+        top: -85px !important;
+        margin-left: -330px; 
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #bildene{
+        height: 100% !important;
+        width: 100% !important;
+        z-index: -1 !important;
+    }
+
+    .carousel-item{
+        height: 300px;
+    } 
+    
+    .carousel-item img{
+        height: 400px !important;
+    }
+
+    .carousel-indicators{
+        display: none;
+    }
+
+    #overskirft1Slide1{
+        color:rgb(53,53,53)!important; 
+        font-size:17px !important;
+        white-space:nowrap;
+        margin-left: 10px !important;
+        margin-bottom: 20px !important;
+        position: absolute;
+        top: -13px !important;
+    }
+
+    #overskirft2Slide1{
+        color:rgb(237,28,36) !important;
+        font-size:20px !important;
+        font-weight: 500;
+        white-space:nowrap;
+        margin-left: -10px !important;
+        position: absolute;
+        top: 30px !important;
+    }
+
+    #overskirft3Slide1{
+        color:black !important;
+        font-size:9px !important;
+        white-space:nowrap;
+        margin-bottom: 30px !important;
+        margin-left: -1px !important;
+        position: absolute;
+        top: 100px !important;
+    }
+
+    #knappForSlide1{ 
+        font-size:14px !important;
+        margin-left: -19px;
+        position: absolute;
+        top: 180px !important;
+    }
+    
+    #overskriftSlide2{
+        position: absolute!important;
+        top: -200px !important;
+        margin-left: -750px !important;
+        font-size:25px !important;
+    }
+
+    #overskirft1Slide2{
+        position: absolute!important;
+        top: -160px !important;
+        margin-left: -670px !important;
+        font-size:12px !important;
+    }
+    
+    #knappForSlide2{ 
+        position: absolute !important;
+        top: -95px !important;
+        margin-left: -770px;
+        font-size:9px !important;
+        margin-top: 5px;
+    } 
+    
+    #overskriftSlide3{
+        position: absolute;
+        top: -195px !important;
+        margin-left: -150px !important;
+        bottom: auto !important;
+        font-size:12.5px !important;
+    }
+
+    #overskirft1Slide3{
+        position: absolute !important;
+        color:rgb(237,28,36); 
+        font-size:9px !important;
+        top: -160px !important;
+        margin-left: -220px !important;
+        white-space:nowrap;
+    }
+    
+    #knappForSlide3{ 
+        position: absolute !important;
+        top: -70px !important;
+        margin-left: -357px; 
+        font-size: 13px;
+    }
+
+    hr{
+        display:none;
+    }
+}
